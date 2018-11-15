@@ -17,7 +17,7 @@ const OrderSummary = (props) => {
             <ul>
                 {ingredientSummary}
             </ul>
-            <p>Continue to checkout ?</p>
+            <p>Please, Continue to checkout </p>
             <Button btnType="Success" clicked={props.continue} >CONTINUE</Button>
             <Button btnType="Danger" clicked={props.cancel}>CANCEL</Button>
 
